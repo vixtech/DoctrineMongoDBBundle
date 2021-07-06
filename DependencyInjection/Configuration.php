@@ -303,6 +303,7 @@ class Configuration implements ConfigurationInterface
                                             })->thenInvalid('The replicaSet option must be a string or null.')
                                         ->end()
                                     ->end()
+                                    ->integerNode('serverSelectionTimeoutMS')->end()
                                     ->integerNode('socketTimeoutMS')->end()
                                     ->booleanNode('ssl')->end()
                                     ->scalarNode('username')

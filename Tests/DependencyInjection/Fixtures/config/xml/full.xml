@@ -41,6 +41,7 @@
                 readPreference="secondaryPreferred"
                 replicaSet="foo"
                 slaveOkay="true"
+                serverSelectionTimeoutMS="1000"
                 socketTimeoutMS="1000"
                 ssl="true"
                 authMechanism="MONGODB-X509"
