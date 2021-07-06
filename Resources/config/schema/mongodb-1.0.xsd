@@ -68,6 +68,7 @@
     <xsd:attribute name="readPreference" type="read-preference" />
     <xsd:attribute name="replicaSet" type="xsd:string" />
     <xsd:attribute name="ssl" type="xsd:boolean" />
+    <xsd:attribute name="serverSelectionTimeoutMS" type="xsd:integer" />
     <xsd:attribute name="socketTimeoutMS" type="xsd:integer" />
     <xsd:attribute name="username" type="xsd:string" />
     <xsd:attribute name="w" type="xsd:string" />

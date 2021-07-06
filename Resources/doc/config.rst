@@ -586,6 +586,7 @@ Full Default Configuration
                         readPreference:       ~
                         readPreferenceTags:   ~
                         replicaSet:           ~ # replica set name
+                        serverSelectionTimeoutMS:      ~
                         socketTimeoutMS:      ~
                         ssl:                  ~
                         username:             ~
